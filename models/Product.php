@@ -133,7 +133,6 @@ class Product extends Model
         'file_session_required',
     ];
     public $hidden = [
-        'id',
         'sales_count',
         'created_at',
         'updated_at',
